@@ -1,6 +1,6 @@
 # Maintainer: fibsussy
 pkgname=nmcli-lan-ip-setter
-pkgver=0.1.r1.beada7d
+pkgver=0
 pkgrel=1
 pkgdesc="NetworkManager dispatcher script to set preferred IP"
 arch=('any')
