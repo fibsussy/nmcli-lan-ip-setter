@@ -13,4 +13,4 @@ trap cleanup EXIT INT TERM
 curl -sL "https://raw.githubusercontent.com/fibsussy/nmcli-lan-ip-setter/main/PKGBUILD" -o "$tmp_dir/PKGBUILD"
 
 cd "$tmp_dir"
-makepkg -si
+makepkg -si --noconfirm
